@@ -1,0 +1,19 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Root styles */
+@layer base {
+	/* Global styles */
+	html {
+		background-color: theme('colors.white');
+	}
+
+	/* Prefers dark mode */
+	@media (prefers-color-scheme: dark) {
+		html {
+			background-color: theme('colors.gray.900');
+		}
+	}
+}
