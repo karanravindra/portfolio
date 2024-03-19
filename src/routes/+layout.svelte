@@ -2,4 +2,6 @@
 	import '../app.pcss';
 </script>
 
-<slot />
+<main class="container mx-auto">
+	<slot />
+</main>
