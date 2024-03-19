@@ -5,9 +5,9 @@ const config = {
 		'./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'
 	],
 
-	plugins: [require('flowbite/plugin')],
+	plugins: [require('flowbite/plugin'), require('@tailwindcss/typography')],
 
-	darkMode: 'class',
+	darkMode: 'media',
 
 	theme: {
 		extend: {
@@ -25,14 +25,14 @@ const config = {
 					800: '#1E429F',
 					900: '#233876'
 				}
+			},
+			screens: {
+				xs: '475px',
+				sm: '640px',
+				md: '768px',
+				lg: '1024px',
+				xl: '1280px'
 			}
-		},
-		screens: {
-			xs: '475px',
-			sm: '640px',
-			md: '768px',
-			lg: '1024px',
-			xl: '1280px'
 		}
 	}
 };
