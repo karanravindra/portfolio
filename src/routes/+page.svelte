@@ -1,5 +1,5 @@
 <script lang="ts">
-	import img from '$assets/3d-casual-life-abstract-composition-with-shapes.png';
+	import img from '$assets/3d-casual-life-young-man-at-workplace-with-coffee.png';
 	import { Card } from 'flowbite-svelte';
 </script>
 
@@ -42,10 +42,7 @@
 			</a>
 		</div>
 		<div class="hidden lg:col-span-5 lg:mt-0 lg:flex">
-			<img
-				src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png"
-				alt="mockup"
-			/>
+			<img src={img} alt="illustration of a person in a chair from Icons8" />
 		</div>
 	</div>
 </section>
