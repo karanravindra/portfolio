@@ -11,7 +11,7 @@
 		links: { href: string; text: string }[];
 	} = {
 		error: '500 Internal Error',
-		title: "Whoops! That page doesn't exist.",
+		title: "Whoops! There's an error.",
 		description: 'Something went wrong on my end. Here are some helpful links:',
 		img: img500,
 		links: [
