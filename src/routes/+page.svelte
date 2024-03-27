@@ -44,7 +44,7 @@
 		<h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
 			About me
 		</h2>
-		<div class="flex flex-row space-x-4">
+		<div class="flex flex-col md:flex-row md:space-x-4">
 			<p class="mb-8 font-light text-gray-500 sm:text-lg dark:text-gray-400">
 				Hi, I'm Karan. This is a shared journey to make sense of the complex world around us. I'm
 				here to learn out loud, sharing insights as we navigate through the jargon together. It's
