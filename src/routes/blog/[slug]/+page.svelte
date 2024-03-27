@@ -111,7 +111,7 @@ URL: https://flowbite.com/docs/components/typography/
 					</aside>
 				</div>
 			</header>
-			<div class="prose py-8">
+			<div class="prose py-8 dark:prose-invert">
 				<p class="">
 					Flowbite is an open-source library of UI components built with the utility-first classes
 					from Tailwind CSS. It also includes interactive elements such as dropdowns, modals,
@@ -474,8 +474,8 @@ URL: https://flowbite.com/docs/components/typography/
 					</div>
 				</div>
 			</div>
-			<section class="bg-white py-8 antialiased lg:py-16 dark:bg-gray-900">
-				<div class="mx-auto max-w-2xl">
+			<section class="py-8 antialiased lg:py-16">
+				<div class="mx-auto">
 					<div class="mb-6 flex items-center justify-between">
 						<h2 class="text-lg font-bold text-gray-900 lg:text-2xl dark:text-white">
 							Discussion (20)
