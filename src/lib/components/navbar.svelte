@@ -17,9 +17,9 @@
 	<NavHamburger />
 	<NavUl {activeUrl}>
 		<NavLi href="/">Home</NavLi>
-		<NavLi href="/about">About</NavLi>
-		<NavLi href="/blog">Blog</NavLi>
-		<NavLi href="/project">Project</NavLi>
-		<NavLi href="/contact">Contact</NavLi>
+		<NavLi href="#about">About</NavLi>
+		<NavLi href="#blog">Blog</NavLi>
+		<NavLi href="#project">Project</NavLi>
+		<NavLi href="#contact">Contact</NavLi>
 	</NavUl>
 </Navbar>
