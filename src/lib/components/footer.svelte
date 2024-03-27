@@ -7,7 +7,10 @@
 				Rights Reserved.
 			</span>
 			<div class="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-				<a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+				<a
+					href="https://github.com/karanravindra"
+					class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+				>
 					<svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"
 						><path
 							fill-rule="evenodd"
