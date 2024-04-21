@@ -8,6 +8,6 @@
 
 <Hero />
 <About />
-<Blog />
+<!-- <Blog /> -->
 <Projects />
-<Contact />
+<!-- <Contact /> -->

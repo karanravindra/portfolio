@@ -19,7 +19,7 @@
 			</p>
 
 			<Button color="primary" size="lg" class="mr-3 mt-4"
-				>Primary Button
+				>About Me
 				<svg
 					class="-mr-1 ml-2 h-5 w-5"
 					fill="currentColor"
@@ -32,7 +32,7 @@
 					></path></svg
 				></Button
 			>
-			<Button color="light" size="lg" class="mt-4">Secondary Button</Button>
+			<Button color="light" size="lg" class="mt-4">My Projects</Button>
 		</div>
 		<div class="hidden lg:col-span-5 lg:mt-0 lg:flex">
 			<img src={img} alt="illustration of a person in a chair from Icons8" />

@@ -35,7 +35,7 @@
 </script>
 
 <section
-	class="flex h-full flex-col items-center overflow-hidden p-4 max-sm:pt-16 sm:flex-row-reverse sm:justify-between"
+	class="flex h-screen flex-col items-center overflow-hidden p-4 max-sm:pt-16 sm:flex-row-reverse sm:justify-between"
 >
 	<div class="w-2/4 max-w-xs max-sm:pb-16 md:w-1/2 lg:w-1/3 xl:w-1/4">
 		<img src={post.img} alt="3d casual life abstract composition with shapes from Icons8" />

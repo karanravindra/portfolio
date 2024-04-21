@@ -18,8 +18,8 @@
 	<NavUl {activeUrl}>
 		<NavLi href="/">Home</NavLi>
 		<NavLi href="#about">About</NavLi>
-		<NavLi href="#blog">Blog</NavLi>
-		<NavLi href="#projects">Projects</NavLi>
+		<!-- <NavLi href="/blog">Blog</NavLi>
+		<NavLi href="#projects">Projects</NavLi> -->
 		<NavLi href="#contact">Contact</NavLi>
 	</NavUl>
 </Navbar>
