@@ -67,54 +67,20 @@
 					</div>
 
 					<div class="flex items-center gap-2.5">
-						<div class="rounded-lg p-1 hover:bg-gray-50 dark:hover:bg-gray-800">
+						<div class="rounded-lg p-2 hover:bg-gray-50 dark:hover:bg-gray-800">
 							<img
-								data-tooltip-target="tooltip-logo-html5"
-								class="h-8 w-auto object-contain"
-								src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/technologies/html5.svg"
+								data-tooltip-target="tooltip-logo-svelte"
+								class="h-6 w-auto object-contain"
+								src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg"
 								alt=""
 							/>
 						</div>
 						<div
-							id="tooltip-logo-html5"
+							id="tooltip-logo-svelte"
 							role="tooltip"
 							class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700"
 						>
-							HTML5
-							<div class="tooltip-arrow" data-popper-arrow></div>
-						</div>
-
-						<div class="rounded-lg p-1 hover:bg-gray-50 dark:hover:bg-gray-800">
-							<img
-								data-tooltip-target="tooltip-logo-css3"
-								class="h-8 w-auto object-contain"
-								src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/technologies/css-3.svg"
-								alt=""
-							/>
-						</div>
-						<div
-							id="tooltip-logo-css3"
-							role="tooltip"
-							class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700"
-						>
-							CSS3
-							<div class="tooltip-arrow" data-popper-arrow></div>
-						</div>
-
-						<div class="rounded-lg p-1 hover:bg-gray-50 dark:hover:bg-gray-800">
-							<img
-								data-tooltip-target="tooltip-logo-javascript"
-								class="h-8 w-auto object-contain"
-								src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/technologies/javascript.svg"
-								alt=""
-							/>
-						</div>
-						<div
-							id="tooltip-logo-javascript"
-							role="tooltip"
-							class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700"
-						>
-							JavaScript
+							Svelte
 							<div class="tooltip-arrow" data-popper-arrow></div>
 						</div>
 
@@ -171,7 +137,7 @@
 				</div>
 			</div>
 			<!-- Project 2 -->
-			<div
+			<!-- <div
 				class="flex flex-col gap-y-8 sm:gap-y-12 lg:flex-row lg:items-center lg:gap-x-16 xl:gap-x-24"
 			>
 				<div class="lg:order-2">
@@ -313,7 +279,7 @@
 						</svg>
 					</a>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </section>
