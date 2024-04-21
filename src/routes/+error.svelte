@@ -11,7 +11,7 @@
 		links: { href: string; text: string }[];
 	} = {
 		error: '500 Internal Error',
-		title: "Whoops! That page doesn't exist.",
+		title: "Whoops! There's an error.",
 		description: 'Something went wrong on my end. Here are some helpful links:',
 		img: img500,
 		links: [
@@ -40,7 +40,7 @@
 	<div class="w-2/4 max-w-xs max-sm:pb-16 md:w-1/2 lg:w-1/3 xl:w-1/4">
 		<img src={post.img} alt="3d casual life abstract composition with shapes from Icons8" />
 	</div>
-	<div class="prose dark:prose-invert xl:prose-lg">
+	<div class="prose xl:prose-lg dark:prose-invert">
 		<h4 class="text-primary-600 dark:text-primary-500">{post.error}</h4>
 		<h1>{post.title}</h1>
 		<p>{post.description}</p>
