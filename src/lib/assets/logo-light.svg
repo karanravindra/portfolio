@@ -1,12 +1,1 @@
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-    xmlns="http://www.w3.org/2000/svg">
-    <circle cx="16" cy="16" r="4.92308" fill="#111928"/>
-    <circle cx="16.0002" cy="3.69231" r="3.69231" fill="#6B7280"/>
-    <circle cx="16.0002" cy="28.3078" r="3.69231" fill="#6B7280"/>
-    <circle cx="28.3078" cy="15.9997" r="3.69231" fill="#6B7280"/>
-    <circle cx="3.69231" cy="15.9997" r="3.69231" fill="#6B7280"/>
-    <circle cx="6.76906" cy="6.76955" r="3.07692" fill="#D1D5DB"/>
-    <circle cx="25.2307" cy="6.76955" r="3.07692" fill="#D1D5DB"/>
-    <circle cx="25.2307" cy="25.2307" r="3.07692" fill="#D1D5DB"/>
-    <circle cx="6.76906" cy="25.2307" r="3.07692" fill="#D1D5DB"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32"><circle cx="16" cy="16" r="4.923" fill="#111928"/><circle cx="16" cy="3.692" r="3.692" fill="#6B7280"/><circle cx="16" cy="28.308" r="3.692" fill="#6B7280"/><circle cx="28.308" cy="16" r="3.692" fill="#6B7280"/><circle cx="3.692" cy="16" r="3.692" fill="#6B7280"/><circle cx="6.769" cy="6.77" r="3.077" fill="#D1D5DB"/><circle cx="25.231" cy="6.77" r="3.077" fill="#D1D5DB"/><circle cx="25.231" cy="25.231" r="3.077" fill="#D1D5DB"/><circle cx="6.769" cy="25.231" r="3.077" fill="#D1D5DB"/></svg>
