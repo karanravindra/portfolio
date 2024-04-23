@@ -23,7 +23,7 @@
 			</div>
 		</div>
 		<div class="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-			<Button color="light" size="lg"
+			<Button color="light" size="lg" href="https://r2.karanravindra.me/Resume.pdf" target="_blank"
 				>View Resume<svg
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
