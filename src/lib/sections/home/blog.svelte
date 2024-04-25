@@ -17,11 +17,11 @@
 		</div>
 		<div class="mt-12 grid grid-cols-1 gap-8 sm:mt-16 lg:grid-cols-2 lg:gap-20">
 			<article>
-				<a href="#" title="">
+				<a href="/blog/asdf" title="">
 					<img
 						class="w-full rounded-lg object-cover"
 						src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/blog-featured.png"
-						alt="featured image"
+						alt="featured blog post"
 					/>
 				</a>
 
@@ -46,7 +46,7 @@
 					</span>
 
 					<h2 class="text-2xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white">
-						<a href="#" class="hover:underline" title="">
+						<a href="/blog/asdf" class="hover:underline" title="">
 							Releasing code in large corporations is slow - and there is a good reason for it
 						</a>
 					</h2>
@@ -71,7 +71,7 @@
 					</p>
 
 					<a
-						href="#"
+						href="/blog/asdf"
 						title=""
 						class="inline-flex items-center text-base font-semibold leading-tight text-primary-600 hover:underline dark:text-primary-500"
 					>

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import img from '$assets/3d-casual-life-young-man-at-workplace-with-coffee.png';
+	import img from '$assets/3d-casual-life-young-man-at-workplace-with-coffee.png?enhanced';
 	import { Button } from 'flowbite-svelte';
 </script>
 
@@ -35,7 +35,7 @@
 			<Button color="light" size="lg" class="mt-4">My Projects</Button>
 		</div>
 		<div class="hidden lg:col-span-5 lg:mt-0 lg:flex">
-			<img src={img} alt="illustration of a person in a chair from Icons8" />
+			<enhanced:img src={img} alt="illustration of a person in a chair from Icons8" />
 		</div>
 	</div>
 </section>

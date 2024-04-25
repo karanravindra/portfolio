@@ -141,12 +141,12 @@
 				class="flex flex-col gap-y-8 sm:gap-y-12 lg:flex-row lg:items-center lg:gap-x-16 xl:gap-x-24"
 			>
 				<div class="lg:order-2">
-					<img
+					<enhanced:img 
 						class="w-full rounded-lg object-cover shadow-lg dark:hidden"
 						src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/case-study/agency-landing-page.jpg"
 						alt=""
 					/>
-					<img
+					<enhanced:img 
 						class="hidden w-full rounded-lg object-cover shadow-lg dark:block"
 						src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/case-study/agency-landing-page-dark.jpg"
 						alt=""
@@ -188,7 +188,7 @@
 
 					<div class="flex items-center gap-2.5">
 						<div class="rounded-lg p-1 hover:bg-gray-50 dark:hover:bg-gray-800">
-							<img
+							<enhanced:img 
 								data-tooltip-target="tooltip-logo-wordpress"
 								class="h-8 w-auto object-contain"
 								src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/technologies/wordpress.svg"
@@ -206,7 +206,7 @@
 						</div>
 
 						<div class="rounded-lg p-1 hover:bg-gray-50 dark:hover:bg-gray-800">
-							<img
+							<enhanced:img 
 								data-tooltip-target="tooltip-logo-html5"
 								class="h-8 w-auto object-contain"
 								src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/technologies/html5.svg"
@@ -223,7 +223,7 @@
 						</div>
 
 						<div class="rounded-lg p-1 hover:bg-gray-50 dark:hover:bg-gray-800">
-							<img
+							<enhanced:img 
 								data-tooltip-target="tooltip-logo-css3"
 								class="h-8 w-auto object-contain"
 								src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/technologies/css-3.svg"
@@ -240,7 +240,7 @@
 						</div>
 
 						<div class="rounded-lg p-1 hover:bg-gray-50 dark:hover:bg-gray-800">
-							<img
+							<enhanced:img 
 								data-tooltip-target="tooltip-logo-woocommerce"
 								class="h-8 w-auto object-contain"
 								src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/technologies/woocommerce.svg"
