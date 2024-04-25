@@ -6,8 +6,12 @@
 	import Contact from '$lib/sections/home/contact.svelte';
 </script>
 
+<svelte:head>
+	<title>Karan Ravindra</title>
+</svelte:head>
+
 <Hero />
 <About />
 <!-- <Blog /> -->
 <Projects />
-<!-- <Contact /> -->
+<Contact />
