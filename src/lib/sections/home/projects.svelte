@@ -60,9 +60,10 @@
 							</svg>
 						</a>
 						<p class="text-base font-normal text-gray-500 sm:text-lg dark:text-gray-400">
-							My personal portfolio is a showcase of my work, my thoughts and my journey. It's a
-							place where I can share my thoughts and ideas with the world. It's a place where I can
-							connect with people who share my interests.
+							My personal portfolio effectively showcases selected samples of my work, personal
+							thoughts, and professional journey. It serves as a platform where I can share my
+							insights and creative ideas with a broader audience. Please view the detailed case
+							study to gain a deeper understanding of my design process and the technologies I used.
 						</p>
 					</div>
 
