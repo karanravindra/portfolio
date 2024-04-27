@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { Button } from 'flowbite-svelte';
+	import portfolio_light from '$assets/portfolio-light.png?enhanced';
+	import portfolio_dark from '$assets/portfolio-dark.png?enhanced';
 </script>
 
 <section id="projects" class="antialiased">
@@ -21,14 +23,14 @@
 				class="flex flex-col gap-y-8 sm:gap-y-12 lg:flex-row lg:items-center lg:gap-x-16 xl:gap-x-24"
 			>
 				<div>
-					<img
+					<enhanced:img
 						class="w-full rounded-lg object-cover shadow-lg dark:hidden"
-						src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/case-study/flowbite-dashboard.jpg"
+						src={portfolio_light}
 						alt=""
 					/>
-					<img
+					<enhanced:img
 						class="hidden w-full rounded-lg object-cover shadow-lg dark:block"
-						src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/case-study/flowbite-dashboard-dark.jpg"
+						src={portfolio_dark}
 						alt=""
 					/>
 				</div>
