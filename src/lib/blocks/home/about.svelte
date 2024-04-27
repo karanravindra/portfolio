@@ -3,7 +3,7 @@
 </script>
 
 <section id="about">
-	<div class="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6">
+	<div class="mx-auto max-w-screen-xl bg-gray-50 px-4 py-8 sm:py-16 lg:px-6">
 		<h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
 			About me
 		</h2>
