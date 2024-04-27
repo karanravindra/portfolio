@@ -18,7 +18,7 @@
 				right context, everything thing is intuitive.
 			</p>
 
-			<Button color="primary" size="lg" class="mr-3 mt-4"
+			<Button color="primary" size="lg" class="mr-3 mt-4" href="#about"
 				>About Me
 				<svg
 					class="-mr-1 ml-2 h-5 w-5"
@@ -32,7 +32,7 @@
 					></path></svg
 				></Button
 			>
-			<Button color="light" size="lg" class="mt-4">My Projects</Button>
+			<Button color="light" size="lg" class="mt-4" href="#projects">My Projects</Button>
 		</div>
 		<div class="hidden lg:col-span-5 lg:mt-0 lg:flex">
 			<enhanced:img src={img} alt="illustration of a person in a chair from Icons8" />
