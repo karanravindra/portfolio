@@ -60,10 +60,10 @@
 							</svg>
 						</a>
 						<p class="text-base font-normal text-gray-500 sm:text-lg dark:text-gray-400">
-							My personal portfolio effectively showcases selected samples of my work, personal
-							thoughts, and professional journey. It serves as a platform where I can share my
-							insights and creative ideas with a broader audience. Please view the detailed case
-							study to gain a deeper understanding of my design process and the technologies I used.
+							This portfolio not only showcases my capabilities but also serves as a platform where
+							I share my insights and creative ideas with a broader audience. Understanding the
+							technologies and design choices I used will provide valuable insights into the
+							complexity and creativity involved in developing a professional portfolio.
 						</p>
 					</div>
 
@@ -120,7 +120,7 @@
 						</div>
 					</div>
 
-					<Button color="primary" size="md" class="mt-4"
+					<Button color="primary" size="md" class="mt-4" href="/blog/projects/portfolio-study"
 						>View case study <svg
 							aria-hidden="true"
 							class="-mr-1 ml-2 h-5 w-5"

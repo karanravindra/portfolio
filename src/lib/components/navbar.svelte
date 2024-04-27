@@ -1,11 +1,12 @@
 <script>
+	let displayOpen = false;
+
 	import { page } from '$app/stores';
 	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
-	import logo_light from '$assets/logo-light.svg';
-	import logo_dark from '$assets/logo-dark.svg';
 	$: activeUrl = $page.url.pathname;
 
-	let displayOpen = false;
+	import logo_light from '$assets/logo-light.svg';
+	import logo_dark from '$assets/logo-dark.svg';
 </script>
 
 <nav class="border-gray-200 bg-white dark:bg-gray-900">
@@ -49,7 +50,7 @@
 				<li>
 					<a
 						href="/"
-						class="block rounded bg-blue-700 px-3 py-2 text-white md:bg-transparent md:p-0 md:text-blue-700 dark:text-white md:dark:text-blue-500"
+						class="block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
 						aria-current="page">Home</a
 					>
 				</li>
