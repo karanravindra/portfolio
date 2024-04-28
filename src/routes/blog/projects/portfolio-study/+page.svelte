@@ -10,8 +10,8 @@ URL: https://flowbite.com/docs/components/typography/
 			<span class="mb-4 block font-semibold text-gray-900 dark:text-white"
 				>Published <time
 					class="font-normal uppercase text-gray-500 dark:text-gray-400"
-					datetime="2022-03-08"
-					title="August 3rd, 2022">August 3, 2022, 2:20am EDT</time
+					datetime="2024-08-28T13:58:00Z"
+					title="August 28rd, 2024">April 28, 2024, 1:58pm EDT</time
 				></span
 			>
 			<h1
