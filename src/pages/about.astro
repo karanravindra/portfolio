@@ -1,0 +1,33 @@
+---
+import PageLayout from "@/layouts/Base.astro";
+
+const meta = {
+	description: "I'm a starter theme for Astro.build",
+	title: "About",
+};
+---
+
+<PageLayout meta={meta}>
+	<h1 class="title mb-6">About</h1>
+	<div class="prose prose-sm prose-cactus max-w-none">
+		<p>
+			Hi, I'm Karan. I'm pretty much interested in everything sciency, but particularly in data and
+			how the world works.
+		</p>
+		<p>Here are my some of my reasons for starting this website:</p>
+		<ul class="list-inside list-disc" role="list">
+			<li>I learn a lot of random information and I need a place to store them</li>
+			<li>Putting them on a website adds a synthetic sense of importance</li>
+			<li>Learning in public is proven to be one the best ways to learn</li>
+		</ul>
+		<p>
+			Checkout my GitHub for some of my projects <a
+				aria-label="github repository"
+				class="cactus-link inline-block"
+				href="https://github.com/karanravindra"
+				rel="noreferrer"
+				target="_blank">repo</a
+			> if you like me!
+		</p>
+	</div>
+</PageLayout>
