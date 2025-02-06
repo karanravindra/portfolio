@@ -2,7 +2,7 @@
 title: "Install Docker on Raspberry Pi"
 description: "Learn how to install Docker on your Raspberry Pi to run containerized applications and services."
 publishDate: "6 Feb 2025"
-# updatedDate: 6 December 2024
+updatedDate: 6 Feb 2025
 tags: ["raspberry-pi", "linux", "self-host"]
 ---
 
@@ -90,6 +90,9 @@ apt-get install -y uidmap
 EOF
 
 dockerd-rootless-setuptool.sh install
+
+echo 'export PATH=/usr/bin:$PATH' >> ~/.bashrc
+echo 'export DOCKER_HOST=unix:///run/user/1000/docker.sock' >> ~/.bashrc
 
 sudo apt install docker-compose-plugin
 
