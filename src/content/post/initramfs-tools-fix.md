@@ -1,5 +1,4 @@
 ---
-slug: "initramfs-tools-fix"
 title: "Fix Corrupted `update-initramfs.conf` on Raspberry Pi"
 description: "If you’re running `sudo apt update && sudo apt upgrade` on your Raspberry Pi and encountering a `dpkg` error due to a corrupted `/etc/initramfs-tools/update-initramfs.conf`, don’t worry—here’s how to fix it."
 publishDate: "6 Feb 2025"
