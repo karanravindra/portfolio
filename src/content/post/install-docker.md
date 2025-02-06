@@ -48,6 +48,13 @@ Enable rootless mode with the following command:
 dockerd-rootless-setuptool.sh install
 ```
 
+Then add the following lines to your `.bashrc` or `.zshrc` file:
+
+```bash
+export PATH=/usr/bin:$PATH
+export DOCKER_HOST=unix:///run/user/1000/docker.sock
+```
+
 ### Step 5: Install Docker Compose
 
 Docker Compose allows you to manage multi-container applications. Install it with:
