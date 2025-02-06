@@ -12,7 +12,7 @@ Docker is a powerful containerization tool that simplifies software deployment b
 
 ## Installation Steps
 
-### Step 1: Update System Packages
+### Update System Packages
 
 Before installing Docker, ensure your system is up to date:
 
@@ -21,7 +21,7 @@ sudo apt update
 sudo apt upgrade
 ```
 
-### Step 2: Install Docker
+### Install Docker
 
 Run the following command to download and install Docker:
 
@@ -29,7 +29,7 @@ Run the following command to download and install Docker:
 curl -sSL https://get.docker.com | sh
 ```
 
-### Step 3: Install User ID Mapping Tools
+### Install User ID Mapping Tools
 
 Docker rootless mode requires `newuidmap` and `newgidmap` binaries:
 
@@ -40,7 +40,7 @@ apt-get install -y uidmap
 EOF
 ```
 
-### Step 4: Set Up Rootless Docker
+### Set Up Rootless Docker
 
 Enable rootless mode with the following command:
 
@@ -55,7 +55,7 @@ export PATH=/usr/bin:$PATH
 export DOCKER_HOST=unix:///run/user/1000/docker.sock
 ```
 
-### Step 5: Install Docker Compose
+### Install Docker Compose
 
 Docker Compose allows you to manage multi-container applications. Install it with:
 
@@ -63,7 +63,7 @@ Docker Compose allows you to manage multi-container applications. Install it wit
 sudo apt install docker-compose-plugin
 ```
 
-### Step 6: Verify Installation
+### Verify Installation
 
 Check the installed Docker and Docker Compose versions:
 
