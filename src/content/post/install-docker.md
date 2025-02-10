@@ -2,7 +2,7 @@
 title: "Install Docker on Raspberry Pi"
 description: "Learn how to install Docker on your Raspberry Pi to run containerized applications and services."
 publishDate: "6 Feb 2025"
-updatedDate: 6 Feb 2025
+updatedDate: 9 Feb 2025
 tags: ["raspberry-pi", "linux", "self-host"]
 ---
 
@@ -29,30 +29,13 @@ Run the following command to download and install Docker:
 curl -sSL https://get.docker.com | sh
 ```
 
-### Install User ID Mapping Tools
-
-Docker rootless mode requires `newuidmap` and `newgidmap` binaries:
-
-```bash
-sudo sh -eux <<EOF
-# Install newuidmap & newgidmap binaries
-apt-get install -y uidmap
-EOF
-```
-
 ### Set Up Rootless Docker
 
-Enable rootless mode with the following command:
+Enable rootless mode with the following command then logout and login to apply the changes:
 
 ```bash
-dockerd-rootless-setuptool.sh install
-```
-
-Then add the following lines to your `.bashrc` or `.zshrc` file:
-
-```bash
-export PATH=/usr/bin:$PATH
-export DOCKER_HOST=unix:///run/user/1000/docker.sock
+sudo usermod -aG docker $USER
+logout
 ```
 
 ### Install Docker Compose
@@ -78,23 +61,19 @@ You have successfully installed Docker and Docker Compose on your Linux system. 
 
 ## Full Script
 
+
 ```bash
 sudo apt update
 sudo apt upgrade
 
 curl -sSL https://get.docker.com | sh
-
-sudo sh -eux <<EOF
-# Install newuidmap & newgidmap binaries
-apt-get install -y uidmap
-EOF
-
-dockerd-rootless-setuptool.sh install
-
-echo 'export PATH=/usr/bin:$PATH' >> ~/.bashrc
-echo 'export DOCKER_HOST=unix:///run/user/1000/docker.sock' >> ~/.bashrc
-
 sudo apt install docker-compose-plugin
+
+sudo usermod -aG docker $USER
+logout
+```
+---
+```bash
 
 docker --version
 docker compose version
